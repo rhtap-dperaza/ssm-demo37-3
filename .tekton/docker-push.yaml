@@ -17,6 +17,7 @@ metadata:
     pipelinesascode.tekton.dev/task-7: "https://raw.githubusercontent.com/dperaza4dustbit/tssc-dev-multi-ci/use_scripts_tekton/samples/tekton/pac/tasks/show-sbom-rhdh.yaml"
     pipelinesascode.tekton.dev/task-8: "https://raw.githubusercontent.com/dperaza4dustbit/tssc-dev-multi-ci/use_scripts_tekton/samples/tekton/pac/tasks/summary.yaml"
     pipelinesascode.tekton.dev/task-9: "https://raw.githubusercontent.com/dperaza4dustbit/tssc-dev-multi-ci/use_scripts_tekton/samples/tekton/pac/tasks/build-workload.yaml"
+    chains.tekton.dev/payload-format: "in-toto"
   labels:
     argocd/app-name: davp-demo37-3
     janus-idp.io/tekton: davp-demo37-3
