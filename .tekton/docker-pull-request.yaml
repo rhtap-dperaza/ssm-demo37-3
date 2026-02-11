@@ -20,6 +20,8 @@ metadata:
     pipelinesascode.tekton.dev/task-10: "https://raw.githubusercontent.com/dperaza4dustbit/tssc-dev-multi-ci/use_scripts_tekton/samples/tekton/pac/tasks/deploy-workload.yaml"
     pipelinesascode.tekton.dev/task-11: "https://raw.githubusercontent.com/dperaza4dustbit/tssc-dev-multi-ci/use_scripts_tekton/samples/tekton/pac/tasks/scan-workload.yaml"
     pipelinesascode.tekton.dev/task-12: "https://raw.githubusercontent.com/dperaza4dustbit/tssc-dev-multi-ci/use_scripts_tekton/samples/tekton/pac/tasks/summarize-workload.yaml"
+    pipelinesascode.tekton.dev/task-13: "https://raw.githubusercontent.com/dperaza4dustbit/tssc-dev-multi-ci/use_scripts_tekton/samples/tekton/pac/tasks/show-workload-sbom.yaml"
+    pipelinesascode.tekton.dev/task-14: "https://raw.githubusercontent.com/dperaza4dustbit/tssc-dev-multi-ci/use_scripts_tekton/samples/tekton/pac/tasks/deploy-workload-check.yaml"
   labels:
     argocd/app-name: davp-demo37-3
     janus-idp.io/tekton: davp-demo37-3
